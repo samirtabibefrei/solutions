@@ -1,0 +1,16 @@
+Exercice
+
+On dispose de la classe générique suivante :
+class Pair<T> {
+    private T x, y ; 
+    public Pair (T first, T second) {
+        x = first ; y = second ;
+    }
+    public void display () {
+        System.out.println ("Paire : (" + x + "," + y + ")") ;
+    }
+}
+1. Créer, par dérivation, une classe NamedPair permettant de manipuler des couples analogues à ceux de la classe Pair<T>, mais possédant, en outre, un nom de type String. On redéfinira convenablement les méthodes de cette nouvelle classe en réutilisant les méthodes de la classe de base.
+2. Toujours par dérivation à partir de Pair<T>, créer cette fois une « classe ordinaire » (c’est-à-dire une classe non générique), nommée NamedPoint, dans laquelle les éléments du couple sont de type Integer et le nom, toujours de type
+String.
+3. Écrire un programme de test utilisant ces deux classes NamedPair et NamedPoint.

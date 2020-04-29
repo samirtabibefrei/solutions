@@ -1,0 +1,4 @@
+    Exercice3
+
+Écrire une méthode qui renvoie au hasard un objet choisi parmi deux collections de contenu générique différents fournis en argument.
+Écrire un programme utilisant cette méthode avec les 3 interfaces filles principales de Collection.

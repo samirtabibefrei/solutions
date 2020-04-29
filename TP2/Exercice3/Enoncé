@@ -1,0 +1,30 @@
+Exercice
+
+Sachant que la classe Pair est définie comme ceci :
+public class Pair<U, V> {
+    private final U first;
+    private final V second;
+    public Pair(U first, V second) {
+        this.first = first;
+        this.second = second;
+    }
+    public U getFirst() {
+        return first;
+    }
+    public V getSecond() {
+        return second;
+    }
+    @Override
+    public String toString() {
+        return first + " " + second;
+    }
+}
+
+Pourquoi le code ci-dessous n'affiche pas ce qu'il faut ? 
+
+HashMap<Pair<String, String>, String> map = new HashMap<Pair<String, String>, String>();
+map.put(new Pair<String, String>("jean-paul","sartre"),"mort");
+map.put(new Pair<String, String>("elvis","presley"),"vivant");
+map.remove(new Pair<String, String>("elvis","presley"));System.out.println(map);
+
+Que doit-on faire pour résoudre le problème ?

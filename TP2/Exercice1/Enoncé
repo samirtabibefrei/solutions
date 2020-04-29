@@ -1,0 +1,8 @@
+    Exercice1
+
+        Écrire une classe générique GenericBoxExo1 permettant de contenir trois éléments (x, y, et z) d’un même type.
+        On la dotera :
+        • d’un constructeur à trois arguments (les objets constituant le triplet)
+        • de trois méthodes d’accès getPremier, getSecond et getTroisieme, permettant d’obtenir la référence de l’un des éléments du triplet
+        • d’une méthode affiche affichant la valeur des éléments du triplet.
+        Écrire un petit programme utilisant cette classe générique pour instancier quelques objets et exploiter les méthodes existantes.

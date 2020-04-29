@@ -1,0 +1,5 @@
+    Exercice2
+
+Écrire une classe générique GenericBoxExo2 permettant de contenir 4 éléments (x, y, z et w) de types différents.
+. x doit être non numérique, y doit être numérique, z doit être itérable et w doit être comparable (on peut le comparer).
+Refaire les mêmes méthodes demandées dans l’exercice 1 pour cette nouvelle classe

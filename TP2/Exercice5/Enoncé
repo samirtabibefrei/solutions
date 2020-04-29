@@ -1,0 +1,26 @@
+ Exercice
+
+Repérer les erreurs dans le code suivant :
+
+class MyClass <T> {
+    T x ;
+    T[] t1 ;
+    T[] t2 ;
+    public static T aField ;
+    public static int account ;
+    void myMethod() {
+        x = new T () ;
+        t2 = t1 ;
+        t2 = new T [5] ;
+    }
+    <V> MyClass(V x) {
+        this.x = x;
+    }
+    //Autre exemple
+    <V> void myMethod2(V x, V[] table1, T[] table2) {
+            this.x = x;
+            this.table1 = table1;
+            this.table2 = table2;
+        }
+     
+}

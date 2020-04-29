@@ -1,0 +1,15 @@
+    Exercice
+Moteur de recherche de mots
+
+Réaliser une classe nommée Index permettant de gérer un index d’un livre. Un tel index associe une entrée (mot ou suite de mots) à un ou plusieurs numéros de page
+La classe Index disposera, en plus d’un constructeur, des méthodes :
+• ajouter : Ajout d’un nouveau mot associé à un numéro de page ;
+• Supprimer : Ajout d’un nouveau mot associé à un numéro de page ;
+• Chercher : Chercher le mot dans l’index et renvoyer son index s’il est trouvé
+• liste : Pour afficher la liste de l’index, par ordre alphabétique des entrées, la liste des numéros de page d’une même entrée étant triée par valeur croissante ; l’affichage d’une entrée d’index se présentera sur une même ligne sous la forme :
+Mot : page1, page2, etc.
+Exemple :
+Java : 12,25
+CEO : 30
+On prendra bien soin de n’associer qu’une seule fois un même numéro de page à une entrée donnée.
+Indice : Pensez à utiliser les implémentations triées de Set et Map.

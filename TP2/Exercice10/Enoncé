@@ -1,0 +1,6 @@
+    Exercice
+
+En se basant sur l’exercice précédent Créer une nouvelle classe en ajoutant ces deux méthodes :
+• creationIndexPage créant un "index inversé", associant un numéro de page donné à la liste des entrées correspondantes ; on se limitera aux numéros de page associés à au moins une entrée ;
+• listeIndexPage affichant la liste de cet index inversé, par ordre croissant des numéros de page, les entrées d’une même page étant triées par ordre alphabétique, sous la forme :
+25, 68 : Java langage

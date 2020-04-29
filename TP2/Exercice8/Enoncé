@@ -1,0 +1,11 @@
+    Exercice
+
+      Ecrivez un programme java permettant de trier les informations selon l’ordre croissant de la moyenne et du numéro d’inscription.
+      On dispose des informations suivantes des étudiants :
+      Un numéro d’inscription
+      Une note du projet Java
+      Une note de DE
+      Une note de travaux pratiques
+      La moyenne de ces notes
+      Notez que le nombre des étudiants n’est pas connu à l’avance et que les coefficients sont différents :  coefficient examen = 3, coefficient DE = 2 et coefficient TP = 2
+      Ecrivez une méthode qui permet de déterminer le numéro d’inscription de l’étudiant qui a la meilleure note de TP.

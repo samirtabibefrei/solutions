@@ -1,0 +1,3 @@
+    Exercice
+
+Écrire une méthode qui copie des éléments de type inconnu (wildcard) d’une liste vers une autre liste d’éléments de type inconnu.  Écrire un programme utilisant cette méthode.
